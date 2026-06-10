@@ -1,0 +1,236 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shri Kripa | Premium Ethnic Wear</title>
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Montserrat:wght@300;400;500;600&family=Great+Vibes&display=swap" rel="stylesheet">
+    
+    <!-- Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Announcement Bar -->
+    <div class="announcement-bar">
+        <p>Free Shipping on Orders Above ₹2500 | Handcrafted with Love</p>
+    </div>
+
+    <!-- Sticky Navigation -->
+    <header id="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <!-- SVG Logo Concept embedded -->
+                <a href="#">
+                    <svg width="60" height="60" viewBox="0 0 100 100">
+                        <circle cx="50" cy="50" r="45" fill="#D4AF37" />
+                        <text x="50" y="65" font-family="Great Vibes" font-size="40" fill="#FFF" text-anchor="middle">Shri Kripa</text>
+                    </svg>
+                </a>
+            </div>
+            
+            <nav class="nav-links">
+                <a href="#home" class="active">Home</a>
+                <a href="#new-collection">New Arrivals</a>
+                <a href="#categories">Collection</a>
+                <a href="#about">About</a>
+                <a href="#contact">Contact</a>
+            </nav>
+
+            <div class="nav-icons">
+                <i class="fas fa-search" id="search-btn"></i>
+                <div class="cart-icon-wrapper">
+                    <i class="fas fa-shopping-bag" id="cart-btn"></i>
+                    <span class="badge">0</span>
+                </div>
+                <div class="wishlist-icon-wrapper">
+                    <i class="fas fa-heart"></i>
+                    <span class="badge">0</span>
+                </div>
+                <i class="fas fa-bars" id="mobile-menu-btn"></i>
+            </div>
+        </div>
+    </header>
+
+    <!-- Search Modal -->
+    <div class="search-modal" id="search-modal">
+        <input type="text" placeholder="Search for Kurtis, Sarees...">
+        <i class="fas fa-times" id="close-search"></i>
+    </div>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1 class="fade-in">Shri Kripa</h1>
+            <p class="tagline fade-in-delay">Jo Pehenne Ka Man Ho, Woh Yahan Milega.</p>
+            <a href="#new-collection" class="btn btn-gold fade-in-delay-2">Explore Collection</a>
+        </div>
+    </section>
+
+    <!-- Categories -->
+    <section id="categories" class="section-padding">
+        <div class="section-title">
+            <h2>Curated Collections</h2>
+            <div class="separator"></div>
+        </div>
+        <div class="category-grid">
+            <div class="cat-card">
+                <img src="https://images.unsplash.com/photo-1583391727516-9c03d6f03847?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Short Kurtis">
+                <div class="cat-overlay">Short Kurtis</div>
+            </div>
+            <div class="cat-card">
+                <img src="https://images.unsplash.com/photo-1617163302345-9ca00d361e20?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Casual Wear">
+                <div class="cat-overlay">Casual Wear</div>
+            </div>
+            <div class="cat-card">
+                <img src="https://images.unsplash.com/photo-1610189012906-94be4f2744de?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Festive Wear">
+                <div class="cat-overlay">Festive Wear</div>
+            </div>
+            <div class="cat-card">
+                <img src="https://images.unsplash.com/photo-1594048913093-2fb1f1805c6c?ixlib=rb-1.2.1&auto=format&fit=crop&w=600&q=80" alt="Custom Designs">
+                <div class="cat-overlay">Custom Designs</div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Best Sellers -->
+    <section id="best-sellers" class="section-padding bg-cream">
+        <div class="section-title">
+            <h2>Best Sellers</h2>
+            <div class="separator"></div>
+        </div>
+        <div class="product-grid">
+            <!-- Product 1 -->
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="https://images.unsplash.com/photo-1617625802912-cde586faf331?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Peach Silk Kurti">
+                    <div class="action-btns">
+                        <button><i class="fas fa-heart"></i></button>
+                        <button><i class="fas fa-shopping-cart"></i></button>
+                    </div>
+                </div>
+                <div class="product-info">
+                    <h3>Ivory Pearl Kurti</h3>
+                    <p class="price">₹1,850</p>
+                </div>
+            </div>
+            <!-- Product 2 -->
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="https://images.unsplash.com/photo-1598556876375-36d97576ef6c?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Gold Border Kurti">
+                    <span class="badge">Best Seller</span>
+                </div>
+                <div class="product-info">
+                    <h3>Gold Border Kurti</h3>
+                    <p class="price">₹2,400</p>
+                </div>
+            </div>
+            <!-- Product 3 -->
+            <div class="product-card">
+                <div class="product-img">
+                    <img src="https://images.unsplash.com/photo-1583744946568-817855c79831?ixlib=rb-1.2.1&auto=format&fit=crop&w=500&q=80" alt="Floral Dress">
+                </div>
+                <div class="product-info">
+                    <h3>Rosette Festive Dress</h3>
+                    <p class="price">₹3,200</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Us -->
+    <section id="about" class="section-padding">
+        <div class="about-container">
+            <div class="about-text">
+                <h2>The Shri Kripa Story</h2>
+                <p>At Shri Kripa, we believe that clothing is an expression of the soul. Established with a vision to blend traditional craftsmanship with modern aesthetics, we bring you a collection of kurtis that define elegance.</p>
+                <p>From the softest fabrics to intricate hand embroidery, every piece is designed to make you feel special. "Jo Pehenne Ka Man Ho, Woh Yahan Milega" isn't just a tagline; it's our promise to you.</p>
+            </div>
+            <div class="about-image">
+                <img src="https://images.unsplash.com/photo-1490481651871-ab68de25d43d?ixlib=rb-1.2.1&auto=format&fit=crop&w=800&q=80" alt="Fabric details">
+            </div>
+        </div>
+    </section>
+
+    <!-- Reviews -->
+    <section id="reviews" class="section-padding bg-peach">
+        <div class="section-title">
+            <h2>What She Says</h2>
+            <div class="separator"></div>
+        </div>
+        <div class="reviews-grid">
+            <div class="review-card">
+                <i class="fas fa-quote-left"></i>
+                <p>"The fabric quality is unmatched. The peach kurti I ordered fits perfectly and feels so luxurious."</p>
+                <h4>- Priya M.</h4>
+            </div>
+            <div class="review-card">
+                <i class="fas fa-quote-left"></i>
+                <p>"Shri Kripa is my go-to brand for festive wear. The gold accents are beautiful!"</p>
+                <h4>- Anjali S.</h4>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section id="contact" class="section-padding">
+        <div class="contact-wrapper">
+            <div class="contact-form">
+                <h2>Get in Touch</h2>
+                <p>Custom orders or inquiries? Drop us a message.</p>
+                <form>
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea rows="5" placeholder="Message"></textarea>
+                    <button type="submit" class="btn btn-dark">Send Message</button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <div class="footer-content">
+            <div class="footer-col">
+                <h3>Shri Kripa</h3>
+                <p>Premium Ethnic Wear for the Modern Woman.</p>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-facebook-f"></i></a>
+                    <a href="#"><i class="fab fa-pinterest"></i></a>
+                </div>
+            </div>
+            <div class="footer-col">
+                <h3>Quick Links</h3>
+                <a href="#home">Home</a>
+                <a href="#new-collection">New Arrivals</a>
+                <a href="#best-sellers">Best Sellers</a>
+                <a href="#contact">Contact Us</a>
+            </div>
+            <div class="footer-col">
+                <h3>Contact Info</h3>
+                <p><i class="fas fa-envelope"></i> support@shrikripa.com</p>
+                <p><i class="fas fa-phone"></i> +91 98765 43210</p>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Shri Kripa. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Floating WhatsApp Button -->
+    <a href="https://wa.me/919876543210" class="whatsapp-float" target="_blank">
+        <i class="fab fa-whatsapp"></i>
+    </a>
+
+    <!-- Custom JS -->
+    <script src="script.js"></script>
+</body>
+</html>
